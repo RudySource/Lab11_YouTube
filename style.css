@@ -47,6 +47,10 @@ body{
   gap: 16px;
 }
 
+.header-left{
+  margin-left: 5px;
+}
+
 .header-right_mini{
   gap: 5px;
 }
@@ -470,4 +474,14 @@ button:hover{
     font-size: 13px;
   }
   
+}
+@media (max-width: 400px){
+  .search-input{
+    display: none;
+  }
+
+  .search-btn{
+    border-radius: 50%;
+    margin-left: 35%;
+  }
 }
